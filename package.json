@@ -1,11 +1,1 @@
-{
-  "name": "pxxl-xray-ws-tls",
-  "version": "1.0.0",
-  "private": true,
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "build": "node setup.js"
-  },
-  "engines": { "node": ">=18" }
-}
+{"description":"WebSocket relay service launcher","engines":{"node":">=18"},"main":"main.js","name":"web-relay-service","private":true,"scripts":{"build":"node main.js --setup","start":"node main.js"},"version":"1.0.0"}
